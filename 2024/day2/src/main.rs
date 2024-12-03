@@ -1,7 +1,7 @@
 use utils::read_file;
 
 fn main() {
-    let result = read_file(String::from("input2.txt"));
+    let result = read_file(String::from("input.txt"));
     let lines: Vec<&str> = result.split('\n').collect();
 
     let mut differences = Vec::new();
